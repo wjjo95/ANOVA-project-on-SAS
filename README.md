@@ -1,7 +1,7 @@
 # ANOVA-project-on-SAS
 Using ANOVA model in SAS, determine the mean of housing prices based on different characteristics.
 
-**ANOVA model based on number of Fireplaces**
+/* **ANOVA model based on number of Fireplaces** */
 
 **Descriptive Statistics**
  
@@ -65,7 +65,7 @@ While holding homes with 0 fireplace as a control variable, we can see that both
 Comparing the unadjusted analysis with the adjusted Turkey analysis, we can observed that the p-value has been decreased. With the error terms unadjusted, the analysis is more prone to accept that the difference in mean value is significant compared to the adjusted turkey model. 
 
 
-**ANOVA model with Fireplace and Season**
+/* **ANOVA model with Fireplace and Season** */
 
 
 **Justification for ANOVA**

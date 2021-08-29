@@ -1,4 +1,4 @@
-/* Question 1 Descriptive Statistics for Sale Price variable*/
+/* Descriptive Statistics for Sale Price variable*/
 title1 'Descriptive Statistics Using PROC UNIVARIATE for Sale Price';
 proc univariate data=mban5110.ameshousing3;
     var SalePrice;
@@ -9,7 +9,7 @@ proc univariate data=mban5110.ameshousing3;
 run;
 
 
-/*Question 2b Justification for ANOVA*/
+/*Justification for ANOVA*/
 title1 'Descriptive Statistics of SalePrice per Fireplaces';
 proc means data=mban5110.ameshousing3 printalltypes maxdec=3;
     class Fireplaces;    
@@ -24,7 +24,7 @@ run;
 
 
 
-/*Question 2c,d ANOVA test for Sale Price per Fireplaces*/
+/*ANOVA test for Sale Price per Fireplaces*/
 title1 'Testing for Equality of Means with PROC GLM for Sale Price per Fireplaces';
 proc glm data=mban5110.ameshousing3 plots(only)=diagnostics;
      class Fireplaces;
@@ -34,7 +34,7 @@ run;
 quit;
 
 
-/* Question 2e Post-hoc Analysis*/
+/* Post-hoc Analysis*/
 title1 'House Data: Multiple Comparisons';
 proc glm data=mban5110.ameshousing3 
          plots(only)=(controlplot diffplot(center)) alpha=0.05;
@@ -48,7 +48,7 @@ quit;
 
 
 
-/* Question 3a Justification for ANOVA Block*/
+/*Justification for ANOVA Block*/
 
 title1 'Descriptive Statistics of Season_Sold';
 proc means data=mban5110.ameshousing3 printalltypes maxdec=3;
@@ -65,7 +65,7 @@ run;
 
 
 
-/*Question 3b ANOVA test for FirePlace and Season Sold*/
+/* ANOVA test for FirePlace and Season Sold*/
 ods graphics on;
 title1 'ANOVA for Randomized Block Design';
 proc glm data=mban5110.ameshousing3 plots(only)=diagnostics;

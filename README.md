@@ -1,7 +1,7 @@
 # ANOVA-project-on-SAS
 Using ANOVA model in SAS, determine the mean of housing prices based on different characteristics.
 
-
+**ANOVA model based on number of Fireplaces**
 
 **Descriptive Statistics**
  
@@ -10,11 +10,6 @@ Looking at the basic descriptive statistics of the sales price variable using â€
  
 The histogram and the Q-Q plot of the sale price signals the normality of the datasets. Low value of kurtosis and skewness also shows normality of the datasets.
 
-1.	Build an ANOVA model to investigate whether the average sale prices are significantly different for homes with different number of fireplaces. 
-a.	Is it appropriate to use a two-sample t-test here?
-To start with a conclusion, two-sample t-test would not be appropriate in this case where we are measuring the average sales price against the different number of fireplaces.
-One-sample t-test is where the hypothesis examines a specified value. For instance, we can analyze whether the average SAT scores for a certain region will be 1200. Two-sample t-test is designed to understand whether two groups have the same average. For instance, if we are looking to understand the SAT score differs between male and female students, we would be able to use two-sample t- test. In this case of fireplaces and sales price, we would need to use ANOVA because there are three groups that we are comparing (more than two).
- 
 Looking at the chart below, we see that there are three groups: no fireplace, 1 fireplace and 2 fireplaces. Since there are more than two groups, two-sample t-test is not feasible and we would have to use ANOVA to assess our hypothesis.
 
 

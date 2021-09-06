@@ -1,4 +1,4 @@
-# ANOVA-project-on-SAS
+# ANOVA-project-on-SAS (Schulich)
 Using ANOVA model in SAS, determine the mean of housing prices based on different characteristics.
 
 /* **ANOVA model based on number of Fireplaces** */
